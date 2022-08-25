@@ -6,16 +6,38 @@ body
 }
 
 .left{
-    color: white;
-    font-family:bebas neue;
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+        color: white;
 }
 
 .mid{
-    color: white;
-    font-family:bebas neue;
-}
+        display: block;
+        width: 36%;
+        margin: 29px auto;
+        color: white;
+    }
 
 .right{
-    color: white;
-    font-family:bebas neue;
+        position: absolute;
+        right: 34px;
+        top: 30px;
+        display: inline-block;
+        color: white;
+}
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    padding-top: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: aliceblue;
 }
