@@ -8,14 +8,14 @@ body
 .left{
         display: inline-block;
         position: absolute;
-        left: 60px;
-        top: 20px;
+        left: 0px;
+        top: -20px;
         color: white;
 }
 
 .mid{
         display: block;
-        width: 36%;
+        width: 56%;
         margin: 29px auto;
         color: white;
     }
@@ -37,7 +37,27 @@ body
 
 .navbar a{
     padding-top: 20px;
+    font-size: 25px;
     padding: 20px;
     text-decoration: none;
     color: aliceblue;
+}
+
+.navbar a:hover{
+    color: gray;
+}
+
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(31, 30, 30);
 }
