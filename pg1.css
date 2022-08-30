@@ -83,6 +83,10 @@ body
     height: 25px;
     
 }
+
+.form-group input{
+    text-align: center;
+}
 .Submit{
     margin: 0px 9px;
     background-color: black;
